@@ -44,6 +44,7 @@ public class CallableWorkerExecutor<T> {
 				throw new RuntimeException(e);
 			}
 		}
+		workerFiles.clear();
 		return results;
 	}
 	
