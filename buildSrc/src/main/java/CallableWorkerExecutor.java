@@ -72,7 +72,8 @@ public class CallableWorkerExecutor<T> {
 			}
 		}
 	}
-	
+
+	// TODO: Implement all of org.gradle.workers.WorkerConfiguration	
 	public static class CallableWorkerConfiguration {
 		private Object[] params;
 		
